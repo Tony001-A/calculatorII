@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatorII</title>
+    <link rel="stylesheet" href="calculatorII.css">
+</head>
+<body>
+<table>
+    <tr>
+        <td colspan="4">
+        <div id="result">0</div>
+        </td>
+    </tr>
+    <tr>
+        <td><button id="clear-btn" data-value="C">C</button></td>
+        <td><button class="op-btn" data-value="/">/</button></td>
+        <td><button class="op-btn" data-value="*">*</button></td>
+        <td><button class="op-btn" data-value="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button class="num-btn" data-value="7">7</button></td>
+        <td><button class="num-btn" data-value="8">8</button></td>
+        <td><button class="num-btn" data-value="9">9</button></td>
+        <td rowspan="2"><button class="op-btn" id="op-big-btn" data-value="+">+</button></td>
+    </tr>
+    <tr>
+        <td><button class="num-btn" data-value="4">4</button></td>
+        <td><button class="num-btn" data-value="5">5</button></td>
+        <td><button class="num-btn" data-value="6">6</button></td>
+    </tr>
+    <tr>
+        <td><button class="num-btn" data-value="1">1</button></td>
+        <td><button class="num-btn" data-value="2">2</button></td>
+        <td><button class="num-btn" data-value="3">3</button></td>
+        <td rowspan="2"><button id="equals-btn" data-value="=">=</button></td>
+    </tr>
+    <tr>
+        <td colspan="3"><button class="num-btn" id="large-num-btn" data-value="0">0</button></td>
+        <td><button class="num-btn" data-value=".">.</button></td>
+    </tr>
+</table>
+<script src="calculatorII.js"></script>
+</body>
+</html>
